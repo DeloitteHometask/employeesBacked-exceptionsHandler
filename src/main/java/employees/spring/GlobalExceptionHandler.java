@@ -45,3 +45,4 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<>(errorMessage, HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 }
+
